@@ -36,8 +36,8 @@ header .top_header .contacts img{
 }
 
 .transparent_button {
-    background: none
-    border;  2px solid white;
+    background: none;
+    border: 2px solid white;
     border-radius: 5px;
     cursor: pointer;
     color: white;
