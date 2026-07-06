@@ -44,3 +44,9 @@ header .top_header .contacts img{
     padding: auto 30px
 
 }
+
+.transparent_button:hover {
+    background: #2d6a4f;
+    padding: 0 24px;
+
+}
