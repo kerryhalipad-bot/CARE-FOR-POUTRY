@@ -4,7 +4,43 @@
 }
 
 header .top_header {
-    hieght: 50px;
+    height: 50px;
     background-color: #2d6a4f;
-    backgroung-size:
+    display:flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    box-sizing: border-box;
+}
+
+header .top_header .contacts{
+    display:flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+header .top_header .contacts div{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+header .top_header .contacts div:first-child{
+    margin-right: 30px;
+}
+
+header .top_header .contacts img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.transparent_button {
+    background: none
+    border;  2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: auto 30px
+
 }
